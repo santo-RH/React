@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-
+  
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +35,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#mainDiv{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap:25px;
+  margin: 20px;
+}
+
+img{
+  width: 100%;
+}
+
+.mealdb{
+ 
+  box-shadow: 10px 10px 10px 0px gray;
 }
